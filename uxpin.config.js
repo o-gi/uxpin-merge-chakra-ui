@@ -2,7 +2,7 @@ module.exports = {
   components: {
     categories: [
       {
-        name: "General",
+        name: "Data Display",
         include: ["src/components/Tag/Tag.tsx"],
       },
     ],
