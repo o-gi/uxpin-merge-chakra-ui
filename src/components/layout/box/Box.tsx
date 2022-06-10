@@ -1,11 +1,11 @@
 import { Box as BoxC } from "@chakra-ui/react";
 import { LegacyRef } from "react";
-import { PropsBase } from "../../../cores/types";
+import { PropsBase, TextAlign } from "../../../cores/types";
 
 interface IProps extends PropsBase {
   /** @uxpinignoreprop */
   uxpinRef: LegacyRef<HTMLDivElement>;
-  textAlign: "left" | "center" | "right";
+  textAlign: TextAlign;
 }
 
 /**

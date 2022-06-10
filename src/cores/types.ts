@@ -52,3 +52,6 @@ export interface PropsBase {
    */
   boxShadow: ThemeTypings["shadows"];
 }
+
+export type TextAlign = "left" | "center" | "right";
+export type Orientation = "horizontal" | "vertical";
