@@ -1,18 +1,17 @@
 import { SystemProps, Text as TextC, ThemeTypings } from "@chakra-ui/react";
-import { LegacyRef, ReactNode } from "react";
+import { ReactNode } from "react";
 import { Orientation, PropsBase, TextAlign } from "../../../cores/types";
 
 interface IProps extends PropsBase {
-  /** @uxpinignoreprop */
-  uxpinRef: LegacyRef<HTMLDivElement>;
   /**
-   * @uxpinpropname  Text
+   * @uxpinpropname  Label
    * @uxpincontroltype input
    */
   children: ReactNode;
-  fontSize: ThemeTypings["fontSizes"];
-  fontWeight: ThemeTypings["fontWeights"];
-  as:
+  fontSize?: ThemeTypings["fontSizes"];
+  fontWeight?: ThemeTypings["fontWeights"];
+  textAlign?: TextAlign;
+  as?:
     | "i"
     | "u"
     | "abbr"
@@ -26,11 +25,9 @@ interface IProps extends PropsBase {
     | "samp"
     | "sub"
     | "sup";
-  textAlign: TextAlign;
-  casing: SystemProps["textTransform"];
-  colorScheme: ThemeTypings["colorSchemes"];
-  decoration: SystemProps["textDecoration"];
-  orientation: Orientation;
+  casing?: SystemProps["textTransform"];
+  decoration?: SystemProps["textDecoration"];
+  orientation?: Orientation;
 }
 
 /**
@@ -38,26 +35,27 @@ interface IProps extends PropsBase {
  */
 export const Text = (props: IProps) => {
   const {
-    as,
+    children,
+    fontSize,
+    fontWeight,
     textAlign,
+    as,
     casing,
     decoration,
     orientation,
-    fontSize,
-    fontWeight,
   } = props;
   return (
     <TextC
       {...props}
       as={as}
+      fontSize={fontSize}
+      fontWeight={fontWeight}
       textAlign={textAlign}
       casing={casing}
       decoration={decoration}
       orientation={orientation}
-      fontSize={fontSize}
-      fontWeight={fontWeight}
     >
-      {props.children}
+      {children}
     </TextC>
   );
 };
