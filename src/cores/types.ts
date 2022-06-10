@@ -5,52 +5,52 @@ import { ReactNode } from "react";
 export interface PropsBase {
   children: ReactNode;
   sx: CSSObject;
-  color: ThemeTypings["colors"];
-  border: ThemeTypings["borders"];
-  borderColor: ThemeTypings["colors"];
+  color?: ThemeTypings["colors"];
+  border?: ThemeTypings["borders"];
+  borderColor?: ThemeTypings["colors"];
   /**
    * @uxpinpropname Radius
    */
   /**
    * @uxpinpropname -top
    */
-  borderTop: ThemeTypings["borders"];
+  borderTop?: ThemeTypings["borders"];
   /**
    * @uxpinpropname -right
    */
-  borderRight: ThemeTypings["borders"];
+  borderRight?: ThemeTypings["borders"];
   /**
    * @uxpinpropname -btm
    */
-  borderBottom: ThemeTypings["borders"];
+  borderBottom?: ThemeTypings["borders"];
   /**
    * @uxpinpropname -left
    */
-  borderLeft: ThemeTypings["borders"];
+  borderLeft?: ThemeTypings["borders"];
   /**
    * @uxpinpropname Radius
    */
-  borderRadius: ThemeTypings["radii"];
+  borderRadius?: ThemeTypings["radii"];
   /**
    * @uxpinpropname -top-left
    */
-  borderTopLeftRadius: ThemeTypings["radii"];
+  borderTopLeftRadius?: ThemeTypings["radii"];
   /**
    * @uxpinpropname -top-tight
    */
-  borderTopRightRadius: ThemeTypings["radii"];
+  borderTopRightRadius?: ThemeTypings["radii"];
   /**
    * @uxpinpropname -btm-right
    */
-  borderBottomRightRadius: ThemeTypings["radii"];
+  borderBottomRightRadius?: ThemeTypings["radii"];
   /**
    * @uxpinpropname -btm-left
    */
-  borderBottomLeftRadius: ThemeTypings["radii"];
+  borderBottomLeftRadius?: ThemeTypings["radii"];
   /**
    * @uxpinpropname Shadow
    */
-  boxShadow: ThemeTypings["shadows"];
+  boxShadow?: ThemeTypings["shadows"];
 }
 
 export type TextAlign = "left" | "center" | "right";
