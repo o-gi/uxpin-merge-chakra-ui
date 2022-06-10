@@ -1,9 +1,7 @@
 import { ThemeTypings } from "@chakra-ui/react";
 import { CSSObject } from "@emotion/serialize";
-import { ReactNode } from "react";
 
 export interface PropsBase {
-  children: ReactNode;
   sx: CSSObject;
   color?: ThemeTypings["colors"];
   border?: ThemeTypings["borders"];
