@@ -11,7 +11,10 @@ module.exports = {
       },
       {
         name: "Typography",
-        include: ["src/components/typography/text/Text.tsx"],
+        include: [
+          "src/components/typography/text/Text.tsx",
+          "src/components/typography/heading/Heading.tsx",
+        ],
       },
     ],
     wrapper: "src/UXPinWrapper.tsx",
