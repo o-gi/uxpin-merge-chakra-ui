@@ -6,7 +6,7 @@
   "author": "ogi <takahiro.ogi@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "start": "uxpin-merge --disable-tunneling",
+    "dev": "uxpin-merge --disable-tunneling",
     "push": "uxpin-merge push --branch main",
     "test": "jest --watchAll",
     "coverage": "jest --coverage"
