@@ -29,7 +29,7 @@
     "@types/react": "^17.0.34",
     "@types/react-dom": "^17.0.11",
     "@types/react-test-renderer": "^18.0.0",
-    "@uxpin/merge-cli": "^2.7.10",
+    "@uxpin/merge-cli": "^2.8.0",
     "babel-jest": "^28.1.1",
     "jest": "^28.1.1",
     "jest-environment-jsdom": "^28.1.1",
