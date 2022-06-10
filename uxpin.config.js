@@ -2,6 +2,10 @@ module.exports = {
   components: {
     categories: [
       {
+        name: "Layout",
+        include: ["src/components/layout/box/Box.tsx"],
+      },
+      {
         name: "Data Display",
         include: ["src/components/Tag/Tag.tsx"],
       },
