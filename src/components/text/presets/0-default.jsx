@@ -1,4 +1,4 @@
-import { defaultSx } from "../../../../cores/default-sx";
+import { defaultSx } from "../../../cores/default-sx";
 import { Text } from "../Text";
 
 export default (

@@ -4,8 +4,8 @@ module.exports = {
       {
         name: "Layout",
         include: [
-          "src/components/layout/box/Box.tsx",
-          "src/components/layout/stack/Stack.tsx",
+          "src/components/box/Box.tsx",
+          "src/components/stack/Stack.tsx",
         ],
       },
       {
@@ -15,8 +15,8 @@ module.exports = {
       {
         name: "Typography",
         include: [
-          "src/components/typography/text/Text.tsx",
-          "src/components/typography/heading/Heading.tsx",
+          "src/components/text/Text.tsx",
+          "src/components/heading/Heading.tsx",
         ],
       },
     ],
