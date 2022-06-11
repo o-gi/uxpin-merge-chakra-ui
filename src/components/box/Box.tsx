@@ -1,6 +1,6 @@
 import { Box as BoxC } from "@chakra-ui/react";
 import { LegacyRef, ReactNode } from "react";
-import { PropsBase, TextAlign } from "../../../cores/types";
+import { PropsBase, TextAlign } from "../../cores/types";
 
 interface IProps extends PropsBase {
   /** @uxpinignoreprop */

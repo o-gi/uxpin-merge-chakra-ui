@@ -4,7 +4,7 @@ import {
   ThemeTypings,
 } from "@chakra-ui/react";
 import { ReactNode } from "react";
-import { Orientation, PropsBase, TextAlign } from "../../../cores/types";
+import { Orientation, PropsBase, TextAlign } from "../../cores/types";
 
 interface IProps extends PropsBase {
   /**

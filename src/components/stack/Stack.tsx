@@ -5,7 +5,7 @@ import {
   ThemeTypings,
 } from "@chakra-ui/react";
 import { ReactNode } from "react";
-import { AlignItems, Justify, PropsBase, Wrap } from "../../../cores/types";
+import { AlignItems, Justify, PropsBase, Wrap } from "../../cores/types";
 
 interface IProps extends PropsBase {
   /** @uxpinignoreprop */
