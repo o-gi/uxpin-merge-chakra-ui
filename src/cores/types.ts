@@ -55,6 +55,10 @@ export type TextAlign = "left" | "center" | "right";
 
 export type Orientation = "horizontal" | "vertical";
 
+export type ObjectPosition = "top" | "right" | "center" | "bottom" | "left";
+
+export type ObjectFit = "contain" | "cover" | "fill" | "none" | "scale-down";
+
 export type AlignItems =
   | "flex-start"
   | "flex-end"
