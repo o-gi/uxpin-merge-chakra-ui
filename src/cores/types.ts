@@ -2,7 +2,7 @@ import { ThemeTypings } from "@chakra-ui/react";
 import { CSSObject } from "@emotion/serialize";
 
 export interface PropsBase {
-  sx: CSSObject;
+  sx?: CSSObject;
   color?: ThemeTypings["colors"];
   border?: ThemeTypings["borders"];
   borderColor?: ThemeTypings["colors"];
