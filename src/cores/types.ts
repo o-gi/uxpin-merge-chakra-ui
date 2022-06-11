@@ -52,4 +52,22 @@ export interface PropsBase {
 }
 
 export type TextAlign = "left" | "center" | "right";
+
 export type Orientation = "horizontal" | "vertical";
+
+export type AlignItems =
+  | "flex-start"
+  | "flex-end"
+  | "center"
+  | "stretch"
+  | "baseline";
+
+export type Justify =
+  | "flex-start"
+  | "flex-end"
+  | "center"
+  | "space-between"
+  | "space-around"
+  | "space-evenly";
+
+export type Wrap = "nowrap" | "wrap" | "wrap-reverse";
