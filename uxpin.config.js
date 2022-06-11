@@ -23,6 +23,7 @@ module.exports = {
         name: "Media and icons",
         include: [
           "src/components/avatar/Avatar.tsx",
+          "src/components/avatar-group/AvatarGroup.tsx",
           "src/components/image/Image.tsx",
         ],
       },
