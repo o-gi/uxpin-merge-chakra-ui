@@ -3,7 +3,10 @@ module.exports = {
     categories: [
       {
         name: "Layout",
-        include: ["src/components/layout/box/Box.tsx"],
+        include: [
+          "src/components/layout/box/Box.tsx",
+          "src/components/layout/stack/Stack.tsx",
+        ],
       },
       {
         name: "Data Display",
