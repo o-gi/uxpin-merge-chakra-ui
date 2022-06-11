@@ -21,7 +21,10 @@ module.exports = {
       },
       {
         name: "Media and icons",
-        include: ["src/components/image/Image.tsx"],
+        include: [
+          "src/components/avatar/Avatar.tsx",
+          "src/components/image/Image.tsx",
+        ],
       },
     ],
     wrapper: "src/UXPinWrapper.tsx",
