@@ -19,6 +19,10 @@ module.exports = {
           "src/components/heading/Heading.tsx",
         ],
       },
+      {
+        name: "Media and icons",
+        include: ["src/components/image/Image.tsx"],
+      },
     ],
     wrapper: "src/UXPinWrapper.tsx",
     webpackConfig: "uxpin.webpack.config.js",
