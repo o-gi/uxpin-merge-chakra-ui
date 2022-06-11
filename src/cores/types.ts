@@ -3,6 +3,7 @@ import { CSSObject } from "@emotion/serialize";
 
 export interface PropsBase {
   sx?: CSSObject;
+  bg?: ThemeTypings["colors"];
   color?: ThemeTypings["colors"];
   border?: ThemeTypings["borders"];
   borderColor?: ThemeTypings["colors"];
