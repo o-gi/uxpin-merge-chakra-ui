@@ -6,10 +6,10 @@ export interface PropsBase {
   bg?: ThemeTypings["colors"];
   color?: ThemeTypings["colors"];
   border?: ThemeTypings["borders"];
-  borderColor?: ThemeTypings["colors"];
   /**
-   * @uxpinpropname Radius
+   * @uxpinpropname -color
    */
+  borderColor?: ThemeTypings["colors"];
   /**
    * @uxpinpropname -top
    */
