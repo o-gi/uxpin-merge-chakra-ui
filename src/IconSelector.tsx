@@ -120,7 +120,7 @@ export type IconName =
   | "WarningIcon"
   | "WarningTwoIcon";
 
-export default function IconSelector(iconName: IconName): As<any> | undefined {
+export function IconSelector(iconName: IconName): As<any> | undefined {
   const svgIcons: Record<string, any> = {
     AddIcon: AddIcon,
     ArrowBackIcon: ArrowBackIcon,

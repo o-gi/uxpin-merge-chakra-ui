@@ -5,8 +5,7 @@ import {
   TagRightIcon,
   ThemeTypings,
 } from "@chakra-ui/react";
-import React from "react";
-import IconSelector, { IconName } from "../../IconSelector";
+import { IconName, IconSelector } from "../../IconSelector";
 interface IProps {
   label: string;
   colorScheme: ThemeTypings["colorSchemes"];
