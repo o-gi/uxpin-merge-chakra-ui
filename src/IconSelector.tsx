@@ -118,7 +118,8 @@ export type IconName =
   | "ViewIcon"
   | "ViewOffIcon"
   | "WarningIcon"
-  | "WarningTwoIcon";
+  | "WarningTwoIcon"
+  | undefined;
 
 export function IconSelector(iconName: IconName): As<any> | undefined {
   const svgIcons: Record<string, any> = {
@@ -181,6 +182,8 @@ export function IconSelector(iconName: IconName): As<any> | undefined {
     WarningIcon: WarningIcon,
     WarningTwoIcon: WarningTwoIcon,
   };
+
+  if (!iconName) return svgIcons["AddIcon"];
 
   return svgIcons[iconName];
 }
