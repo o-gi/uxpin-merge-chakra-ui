@@ -15,7 +15,7 @@ interface IProps extends PropsBase {
  *
  * @uxpindocurl https://v1.chakra-ui.com/docs/components/layout/Image#usage
  */
-export const Image = (props: IProps) => {
+export function Image(props: IProps) {
   const { src, alt, boxSize, fit, align } = props;
   return (
     <ImageC
@@ -27,4 +27,4 @@ export const Image = (props: IProps) => {
       align={align}
     />
   );
-};
+}

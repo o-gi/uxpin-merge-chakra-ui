@@ -15,11 +15,11 @@ interface IProps extends PropsBase {
  *
  * @uxpindocurl https://v1.chakra-ui.com/docs/components/layout/box#usage
  */
-export const Box = (props: IProps) => {
+export function Box(props: IProps) {
   const { uxpinRef, children, textAlign } = props;
   return (
     <BoxC {...props} ref={uxpinRef} textAlign={textAlign}>
       {children}
     </BoxC>
   );
-};
+}

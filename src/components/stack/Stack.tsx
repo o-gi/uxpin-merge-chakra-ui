@@ -24,7 +24,7 @@ interface IProps extends PropsBase {
  * @uxpinwrappers
  * NonResizableWrapper
  */
-export const Stack = (props: IProps) => {
+export function Stack(props: IProps) {
   const {
     children,
     direction,
@@ -52,4 +52,4 @@ export const Stack = (props: IProps) => {
       </StackC>
     </div>
   );
-};
+}

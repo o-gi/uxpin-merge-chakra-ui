@@ -21,7 +21,7 @@ interface IProps extends PropsBase {
  *
  * @uxpindocurl https://v1.chakra-ui.com/docs/components/media-and-icons/avatar#usage
  */
-export const Avatar = (props: IProps) => {
+export function Avatar(props: IProps) {
   const { src, name, size, isBadge = false, badgeBg } = props;
 
   if (isBadge)
@@ -32,4 +32,4 @@ export const Avatar = (props: IProps) => {
     );
 
   return <AvatarC {...props} src={src} name={name} size={size} />;
-};
+}

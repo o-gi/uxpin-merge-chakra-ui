@@ -4,8 +4,7 @@ import { Orientation, PropsBase, TextAlign } from "../../cores/types";
 
 interface IProps extends PropsBase {
   /**
-   * @uxpinpropname  Label
-   * @uxpincontroltype input
+   * @uxpinpropname  content
    */
   children: ReactNode;
   fontSize?: ThemeTypings["fontSizes"];
@@ -33,7 +32,7 @@ interface IProps extends PropsBase {
 /**
  * @uxpindocurl https://v1.chakra-ui.com/docs/components/typography/text#changing-the-font-size
  */
-export const Text = (props: IProps) => {
+export function Text(props: IProps) {
   const {
     children,
     fontSize,
@@ -58,4 +57,4 @@ export const Text = (props: IProps) => {
       {children}
     </TextC>
   );
-};
+}
