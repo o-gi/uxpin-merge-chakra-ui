@@ -131,6 +131,17 @@ export type AlignItems =
   | "stretch"
   | "baseline";
 
+export type Basis =
+  | "auto"
+  | "content"
+  | "fit-content"
+  | "max-content"
+  | "min-content";
+
+export type Direction = "column" | "column-reverse" | "row" | "row-reverse";
+
+export type Grow = number & {};
+
 export type Justify =
   | "flex-start"
   | "flex-end"
@@ -138,5 +149,7 @@ export type Justify =
   | "space-between"
   | "space-around"
   | "space-evenly";
+
+export type Shrink = number & {};
 
 export type Wrap = "nowrap" | "wrap" | "wrap-reverse";
