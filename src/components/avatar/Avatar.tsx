@@ -16,10 +16,10 @@ interface IProps extends PropsBase {
 }
 
 /**
+ * @uxpindocurl https://v1.chakra-ui.com/docs/components/media-and-icons/avatar#usage
+ *
  * @uxpinwrappers
  * SkipContainerWrapper
- *
- * @uxpindocurl https://v1.chakra-ui.com/docs/components/media-and-icons/avatar#usage
  */
 export function Avatar(props: IProps) {
   const { src, name, size, isBadge = false, badgeBg } = props;

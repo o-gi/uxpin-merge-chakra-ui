@@ -10,10 +10,10 @@ interface IProps extends PropsBase {
 }
 
 /**
+ * @uxpindocurl https://v1.chakra-ui.com/docs/components/layout/Image#usage
+ *
  * @uxpinwrappers
  * SkipContainerWrapper
- *
- * @uxpindocurl https://v1.chakra-ui.com/docs/components/layout/Image#usage
  */
 export function Image(props: IProps) {
   const { src, alt, boxSize, fit, align } = props;

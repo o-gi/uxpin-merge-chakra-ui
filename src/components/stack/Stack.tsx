@@ -21,8 +21,9 @@ interface IProps extends PropsBase {
 
 /**
  * @uxpindocurl https://v1.chakra-ui.com/docs/components/layout/Stack#usage
+ *
  * @uxpinwrappers
- * NonResizableWrapper
+ * SkipContainerWrapper
  */
 export function Stack(props: IProps) {
   const {
