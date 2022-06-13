@@ -2,9 +2,72 @@ import { ThemeTypings } from "@chakra-ui/react";
 import { CSSObject } from "@emotion/serialize";
 
 export interface PropsBase {
-  sx?: CSSObject;
   bg?: ThemeTypings["colors"];
   color?: ThemeTypings["colors"];
+  /**
+   * @uxpinpropname Width
+   */
+  w?: ThemeTypings["space"];
+  /**
+   * @uxpinpropname Height
+   */
+  h?: ThemeTypings["space"];
+  /**
+   * @uxpinpropname Margin
+   */
+  m?: ThemeTypings["space"];
+  /**
+   * @uxpinpropname -t
+   */
+  mt?: ThemeTypings["space"];
+  /**
+   * @uxpinpropname -r
+   */
+  mr?: ThemeTypings["space"];
+  /**
+   * @uxpinpropname -b
+   */
+  mb?: ThemeTypings["space"];
+  /**
+   * @uxpinpropname -l
+   */
+  ml?: ThemeTypings["space"];
+  /**
+   * @uxpinpropname -x
+   */
+  mx?: ThemeTypings["space"];
+  /**
+   * @uxpinpropname -y
+   */
+  my?: ThemeTypings["space"];
+  /**
+   * @uxpinpropname Padding
+   */
+  p?: ThemeTypings["space"];
+  /**
+   * @uxpinpropname -t
+   */
+  pt?: ThemeTypings["space"];
+  /**
+   * @uxpinpropname -r
+   */
+  pr?: ThemeTypings["space"];
+  /**
+   * @uxpinpropname -b
+   */
+  pb?: ThemeTypings["space"];
+  /**
+   * @uxpinpropname -l
+   */
+  pl?: ThemeTypings["space"];
+  /**
+   * @uxpinpropname -x
+   */
+  px?: ThemeTypings["space"];
+  /**
+   * @uxpinpropname -y
+   */
+  py?: ThemeTypings["space"];
   border?: ThemeTypings["borders"];
   /**
    * @uxpinpropname -color
@@ -50,6 +113,7 @@ export interface PropsBase {
    * @uxpinpropname Shadow
    */
   boxShadow?: ThemeTypings["shadows"];
+  sx?: CSSObject;
 }
 
 export type TextAlign = "left" | "center" | "right";

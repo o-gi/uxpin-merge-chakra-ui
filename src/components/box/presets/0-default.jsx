@@ -3,6 +3,6 @@ import { Box } from "../Box";
 
 export default (
   <Box uxpId="Box" sx={defaultSx}>
-    You Can drag components into this box
+    👇 drag components here
   </Box>
 );
