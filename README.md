@@ -6,7 +6,7 @@ Currently UXPin Merge doesn't support React18, so the Chakra UI in use for this 
 
 ## Design System
 
-WOP
+WIP
 
 ## How to use
 
