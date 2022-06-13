@@ -15,7 +15,11 @@ module.exports = {
       },
       {
         name: "Data Display",
-        include: ["src/components/code/Code.tsx", "src/components/Tag/Tag.tsx"],
+        include: [
+          "src/components/badge/Badge.tsx",
+          "src/components/code/Code.tsx",
+          "src/components/Tag/Tag.tsx",
+        ],
       },
       {
         name: "Feedback",
