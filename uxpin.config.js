@@ -5,6 +5,9 @@ module.exports = {
         name: "Layout",
         include: [
           "src/components/box/Box.tsx",
+          "src/components/center/Center.tsx",
+          "src/components/square/Square.tsx",
+          "src/components/circle/Circle.tsx",
           "src/components/stack/Stack.tsx",
         ],
       },

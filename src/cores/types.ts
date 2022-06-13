@@ -2,16 +2,16 @@ import { ThemeTypings } from "@chakra-ui/react";
 import { CSSObject } from "@emotion/serialize";
 
 export interface PropsBase {
-  bg?: ThemeTypings["colors"];
-  color?: ThemeTypings["colors"];
   /**
    * @uxpinpropname Width
    */
-  w?: ThemeTypings["space"];
+  w?: string;
   /**
    * @uxpinpropname Height
    */
-  h?: ThemeTypings["space"];
+  h?: string;
+  bg?: ThemeTypings["colors"];
+  color?: ThemeTypings["colors"];
   /**
    * @uxpinpropname Margin
    */
