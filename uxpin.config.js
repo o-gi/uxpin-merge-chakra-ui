@@ -13,6 +13,10 @@ module.exports = {
         include: ["src/components/Tag/Tag.tsx"],
       },
       {
+        name: "Feedback",
+        include: ["src/components/spinner/Spinner.tsx"],
+      },
+      {
         name: "Typography",
         include: [
           "src/components/text/Text.tsx",
