@@ -2,14 +2,6 @@ import { ThemeTypings } from "@chakra-ui/react";
 import { CSSObject } from "@emotion/serialize";
 
 export interface PropsBase {
-  /**
-   * @uxpinpropname Width
-   */
-  w?: string;
-  /**
-   * @uxpinpropname Height
-   */
-  h?: string;
   bg?: ThemeTypings["colors"];
   color?: ThemeTypings["colors"];
   /**
