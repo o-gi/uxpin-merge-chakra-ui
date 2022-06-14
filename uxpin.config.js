@@ -18,6 +18,7 @@ module.exports = {
         include: [
           "src/components/badge/Badge.tsx",
           "src/components/code/Code.tsx",
+          "src/components/divider/Divider.tsx",
           "src/components/Tag/Tag.tsx",
         ],
       },
