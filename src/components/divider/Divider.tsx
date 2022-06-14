@@ -2,7 +2,8 @@ import { Divider as DividerC, ThemeTypings } from "@chakra-ui/react";
 import { LegacyRef } from "react";
 import { Orientation, PropsBase } from "../../cores/types";
 
-interface IProps extends Pick<PropsBase, "borderColor" | "boxShadow" | "sx"> {
+interface IProps
+  extends Pick<PropsBase, "w" | "h" | "borderColor" | "boxShadow" | "sx"> {
   /** @uxpinignoreprop */
   uxpinRef: LegacyRef<HTMLHRElement>;
   orientation?: Orientation;
