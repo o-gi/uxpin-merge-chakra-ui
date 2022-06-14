@@ -14,6 +14,10 @@ module.exports = {
         ],
       },
       {
+        name: "Forms",
+        include: ["src/components/icon-button/IconButton.tsx"],
+      },
+      {
         name: "Data Display",
         include: [
           "src/components/badge/Badge.tsx",

@@ -58,7 +58,7 @@ import {
   WarningIcon,
   WarningTwoIcon,
 } from "@chakra-ui/icons";
-import { As } from "@chakra-ui/react";
+import { As, Icon } from "@chakra-ui/react";
 
 export type IconName =
   | "AddIcon"
@@ -121,7 +121,15 @@ export type IconName =
   | "WarningTwoIcon"
   | undefined;
 
-export function IconSelector(iconName: IconName): As<any> | undefined {
+interface IconSelector {
+  (iconName: IconName): As<any> | undefined;
+  (iconName: IconName, returnTypeAs: "JSXElement"): React.ReactElement<
+    any,
+    string | React.JSXElementConstructor<any>
+  >;
+}
+
+export function IconSelector(iconName: IconName, returnTypeAs?: "JSXElement") {
   const svgIcons: Record<string, any> = {
     AddIcon: AddIcon,
     ArrowBackIcon: ArrowBackIcon,
@@ -183,7 +191,12 @@ export function IconSelector(iconName: IconName): As<any> | undefined {
     WarningTwoIcon: WarningTwoIcon,
   };
 
-  if (!iconName) return svgIcons["AddIcon"];
-
-  return svgIcons[iconName];
+  if (typeof iconName === "string" && returnTypeAs === "JSXElement") {
+    return <Icon as={svgIcons[iconName]} />;
+  }
+  return svgIcons[iconName ? iconName : "AddIcon"];
 }
+
+// | As<any>
+// | React.ReactElement<any, string | React.JSXElementConstructor<any>>
+// | undefined
