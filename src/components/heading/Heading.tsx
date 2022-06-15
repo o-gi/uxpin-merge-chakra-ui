@@ -25,18 +25,7 @@ interface IProps extends PropsBase {
  * @uxpindocurl https://v1.chakra-ui.com/docs/components/typography/text#changing-the-font-size
  */
 export function Heading(props: IProps) {
-  const { children, fontSize, fontWeight, textAlign, as, orientation } = props;
+  const { children } = props;
 
-  return (
-    <HeadingC
-      {...props}
-      as={as}
-      fontSize={fontSize}
-      fontWeight={fontWeight}
-      textAlign={textAlign}
-      orientation={orientation}
-    >
-      {children}
-    </HeadingC>
-  );
+  return <HeadingC {...props}>{children}</HeadingC>;
 }

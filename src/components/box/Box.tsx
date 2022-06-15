@@ -28,7 +28,7 @@ const BoxPlaceholder = () => {
  * SkipContainerWrapper
  */
 export function Box(props: IProps) {
-  const { uxpinRef, children, textAlign, border } = props;
+  const { uxpinRef, children } = props;
 
   if (children === boxPlaceholderText)
     return (
@@ -38,7 +38,7 @@ export function Box(props: IProps) {
     );
 
   return (
-    <BoxC {...props} ref={uxpinRef} textAlign={textAlign}>
+    <BoxC {...props} ref={uxpinRef}>
       {children ? children : <BoxPlaceholder />}
     </BoxC>
   );

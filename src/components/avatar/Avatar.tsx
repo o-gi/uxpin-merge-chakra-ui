@@ -22,14 +22,14 @@ interface IProps extends PropsBase {
  * SkipContainerWrapper
  */
 export function Avatar(props: IProps) {
-  const { src, name, size, isBadge = false, badgeBg } = props;
+  const { isBadge = false, badgeBg } = props;
 
   if (isBadge)
     return (
-      <AvatarC {...props} src={src} name={name} size={size}>
+      <AvatarC {...props}>
         <AvatarBadge boxSize="1.25em" bg={badgeBg} />
       </AvatarC>
     );
 
-  return <AvatarC {...props} src={src} name={name} size={size} />;
+  return <AvatarC {...props} />;
 }

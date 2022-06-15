@@ -3,12 +3,12 @@ import { PropsBase } from "../../cores/types";
 import { IconName, IconSelector } from "../../IconSelector";
 
 interface IProps extends PropsBase {
-  ariaLabel: string;
-  colorScheme?: ThemeTypings["components"]["Code"]["variants"];
   /**
    * @uxpinpropname Icon
    */
-  iconName?: IconName;
+  iconName: IconName;
+  ariaLabel: string;
+  colorScheme?: ThemeTypings["components"]["Code"]["variants"];
   variant?: "ghost" | "outline" | "solid" | "link" | "unstyled";
   size?: "lg" | "md" | "sm" | "xs";
   isActive?: boolean;
@@ -22,14 +22,13 @@ interface IProps extends PropsBase {
  * @uxpindocurl https://v1.chakra-ui.com/docs/components/components/components/layout/IconButton#usage
  */
 export function IconButton(props: IProps) {
-  const { ariaLabel, iconName, colorScheme, size } = props;
+  const { ariaLabel, onClick, iconName } = props;
   return (
     <IconButtonC
       {...props}
-      aria-label={ariaLabel}
       icon={IconSelector(iconName, "JSXElement")}
-      colorScheme={colorScheme}
-      size={size}
+      aria-label={ariaLabel}
+      onClick={onClick}
     />
   );
 }

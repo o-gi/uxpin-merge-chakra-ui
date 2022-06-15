@@ -5,6 +5,7 @@ import { PropsBase } from "../../cores/types";
 interface IProps extends PropsBase {
   /** @uxpinignoreprop */
   uxpinRef: LegacyRef<HTMLDivElement>;
+  /** @uxpinignoreprop */
   children: ReactNode;
   size?: string;
 }
@@ -16,9 +17,9 @@ interface IProps extends PropsBase {
  * SkipContainerWrapper
  */
 export function Square(props: IProps) {
-  const { uxpinRef, children, size } = props;
+  const { uxpinRef, children } = props;
   return (
-    <SquareC {...props} ref={uxpinRef} size={size}>
+    <SquareC {...props} ref={uxpinRef}>
       {children}
     </SquareC>
   );

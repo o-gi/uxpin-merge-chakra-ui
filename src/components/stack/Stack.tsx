@@ -26,28 +26,14 @@ interface IProps extends PropsBase {
  * SkipContainerWrapper
  */
 export function Stack(props: IProps) {
-  const {
-    children,
-    direction,
-    spacing,
-    divider = false,
-    dividerColor,
-    align,
-    justify,
-    wrap,
-  } = props;
+  const { children, divider = false, dividerColor } = props;
   return (
     <div>
       <StackC
         {...props}
-        direction={direction}
-        spacing={spacing}
         divider={
           divider ? <StackDivider borderColor={dividerColor} /> : undefined
         }
-        align={align}
-        justify={justify}
-        wrap={wrap}
       >
         {children}
       </StackC>

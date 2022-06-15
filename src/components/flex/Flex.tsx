@@ -30,20 +30,10 @@ interface IProps extends PropsBase {
  * SkipContainerWrapper
  */
 export function Flex(props: IProps) {
-  const { uxpinRef, children, align, basis, direction, justify, shrink, wrap } =
-    props;
+  const { uxpinRef, children } = props;
 
   return (
-    <FlexC
-      {...props}
-      ref={uxpinRef}
-      align={align}
-      basis={basis}
-      direction={direction}
-      justify={justify}
-      shrink={shrink}
-      wrap={wrap}
-    >
+    <FlexC {...props} ref={uxpinRef}>
       {children}
     </FlexC>
   );

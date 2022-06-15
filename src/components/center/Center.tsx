@@ -9,6 +9,7 @@ import { PropsBase } from "../../cores/types";
 interface IProps extends PropsBase {
   /** @uxpinignoreprop */
   uxpinRef: LegacyRef<HTMLDivElement>;
+  /** @uxpinignoreprop */
   children: ReactNode;
   variant?: "Center" | "Square" | "Circle" | undefined;
 }

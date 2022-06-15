@@ -5,8 +5,8 @@ import { PropsBase } from "../../cores/types";
 interface IProps extends PropsBase {
   /** @uxpinignoreprop */
   uxpinRef: LegacyRef<HTMLDivElement>;
+  /** @uxpinignoreprop */
   children: ReactNode;
-  size?: string;
 }
 
 /**
@@ -16,9 +16,9 @@ interface IProps extends PropsBase {
  * SkipContainerWrapper
  */
 export function Circle(props: IProps) {
-  const { uxpinRef, children, size } = props;
+  const { uxpinRef, children } = props;
   return (
-    <CircleC {...props} ref={uxpinRef} size={size}>
+    <CircleC {...props} ref={uxpinRef}>
       {children}
     </CircleC>
   );

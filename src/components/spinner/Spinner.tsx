@@ -15,15 +15,5 @@ interface IProps extends PropsBase {
  * SkipContainerWrapper
  */
 export function Spinner(props: IProps) {
-  const { size, speed, thickness, emptyColor } = props;
-
-  return (
-    <SpinnerC
-      {...props}
-      size={size}
-      speed={speed}
-      thickness={thickness}
-      emptyColor={emptyColor}
-    />
-  );
+  return <SpinnerC {...props} />;
 }

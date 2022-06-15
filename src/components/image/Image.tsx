@@ -16,15 +16,5 @@ interface IProps extends PropsBase {
  * SkipContainerWrapper
  */
 export function Image(props: IProps) {
-  const { src, alt, boxSize, fit, align } = props;
-  return (
-    <ImageC
-      {...props}
-      src={src}
-      alt={alt}
-      boxSize={boxSize}
-      fit={fit}
-      align={align}
-    />
-  );
+  return <ImageC {...props} />;
 }

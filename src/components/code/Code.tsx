@@ -5,6 +5,10 @@ import { PropsBase } from "../../cores/types";
 interface IProps extends PropsBase {
   /** @uxpinignoreprop */
   uxpinRef: LegacyRef<HTMLDivElement>;
+  /**
+   * @uxpinpropname Label
+   * @uxpincontroltype input
+   */
   children: ReactNode;
   colorScheme?: ThemeTypings["colorSchemes"];
   variant?: ThemeTypings["components"]["Code"]["variants"];
@@ -17,15 +21,10 @@ interface IProps extends PropsBase {
  * SkipContainerWrapper
  */
 export function Code(props: IProps) {
-  const { uxpinRef, children, colorScheme, variant } = props;
+  const { uxpinRef, children } = props;
 
   return (
-    <CodeC
-      {...props}
-      ref={uxpinRef}
-      colorScheme={colorScheme}
-      variant={variant}
-    >
+    <CodeC {...props} ref={uxpinRef}>
       {children}
     </CodeC>
   );
