@@ -14,7 +14,7 @@ interface IProps extends PropsBase {
 }
 
 /**
- * @uxpindocurl https://v1.chakra-ui.com/docs/components/layout/ButtonGroup#usage
+ * @uxpindocurl https://v1.chakra-ui.com/docs/components/form/button#grouping-buttons
  */
 
 export function ButtonGroup(props: IProps) {
