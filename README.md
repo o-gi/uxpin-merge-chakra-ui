@@ -38,9 +38,9 @@ First, create a new library and get token.
 ### CLI
 
 ```sh
-npm run push uxpin-merge push --token "TOKEN"
+npm run push --token "TOKEN"
 or
-yarn push uxpin-merge push --token "TOKEN"
+yarn push --token "TOKEN"
 ```
 
 ### Github Actions
