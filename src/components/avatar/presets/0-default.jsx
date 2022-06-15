@@ -1,4 +1,3 @@
-import { defaultSx } from "../../../cores/default-sx";
 import { Avatar } from "../Avatar";
 
 export default (
@@ -6,6 +5,5 @@ export default (
     uxpId="Avatar"
     name="name"
     src="https://avatars.dicebear.com/api/identicon/uxpin.svg"
-    sx={defaultSx}
   />
 );

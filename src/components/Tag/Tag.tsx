@@ -1,30 +1,49 @@
-import {
-  Tag as TagC,
-  TagLabel,
-  TagLeftIcon,
-  TagRightIcon,
-  ThemeTypings,
-} from "@chakra-ui/react";
-import { IconName, IconSelector } from "../../IconSelector";
+import { Tag as TagC, TagLeftIcon, TagRightIcon } from "@chakra-ui/react";
+
+import { IconSelector } from "../../IconSelector";
+
 interface IProps {
-  label: string;
-  colorScheme: ThemeTypings["colorSchemes"];
-  size: ThemeTypings["components"]["Tag"]["sizes"];
-  variant: ThemeTypings["components"]["Tag"]["variants"];
+  /** @uxpinignoreprop */
+  uxpinRef: LegacyRef<HTMLSpanElement>;
+  /**
+   * @uxpinpropname Label
+   * @uxpincontroltype input
+   */
+  children: ReactNode;
+  colorScheme?: ThemeTypings["colorSchemes"];
+  size?: ThemeTypings["components"]["Tag"]["sizes"];
+  variant?: ThemeTypings["components"]["Tag"]["variants"];
   iconLeft?: IconName;
   iconRight?: IconName;
 }
 
-export const Tag = (props: IProps) => {
-  const { label, colorScheme, size, variant, iconLeft, iconRight } = props;
+/**
+ * @uxpindocurl https://v1.chakra-ui.com/docs/components/data-display/tag#usage
+ */
+export function Tag(props: IProps) {
+  const {
+    uxpinRef,
+    children,
+    colorScheme,
+    size,
+    variant,
+    iconLeft,
+    iconRight,
+  } = props;
 
   return (
-    <TagC size={size} key={size} variant={variant} colorScheme={colorScheme}>
+    <TagC
+      ref={uxpinRef}
+      size={size}
+      key={size}
+      variant={variant}
+      colorScheme={colorScheme}
+    >
       {iconLeft && <TagLeftIcon boxSize="12px" as={IconSelector(iconLeft)} />}
-      <TagLabel>{label}</TagLabel>
+      {children}
       {iconRight && (
         <TagRightIcon boxSize="12px" as={IconSelector(iconRight)} />
       )}
     </TagC>
   );
-};
+}

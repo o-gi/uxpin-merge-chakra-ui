@@ -1,5 +1,4 @@
 import { ThemeTypings } from "@chakra-ui/react";
-import { CSSObject } from "@emotion/serialize";
 
 export interface PropsBase {
   /**
@@ -113,7 +112,6 @@ export interface PropsBase {
    * @uxpinpropname Shadow
    */
   boxShadow?: ThemeTypings["shadows"];
-  sx?: CSSObject;
 }
 
 export type TextAlign = "left" | "center" | "right";

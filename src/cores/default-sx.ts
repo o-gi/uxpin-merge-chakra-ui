@@ -1,1 +1,1 @@
-export const defaultSx = {};
+export const defaultSx = undefined;

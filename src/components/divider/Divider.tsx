@@ -3,7 +3,7 @@ import { LegacyRef } from "react";
 import { Orientation, PropsBase } from "../../cores/types";
 
 interface IProps
-  extends Pick<PropsBase, "w" | "h" | "borderColor" | "boxShadow" | "sx"> {
+  extends Pick<PropsBase, "w" | "h" | "borderColor" | "boxShadow"> {
   /** @uxpinignoreprop */
   uxpinRef: LegacyRef<HTMLHRElement>;
   orientation?: Orientation;
