@@ -1,4 +1,3 @@
-import { defaultSx } from "../../../cores/default-sx";
 import { Image } from "../Image";
 
 export default (
@@ -7,6 +6,5 @@ export default (
     boxSize="200px"
     src="https://bit.ly/dan-abramov"
     alt="Dan Abramov"
-    sx={defaultSx}
   />
 );
