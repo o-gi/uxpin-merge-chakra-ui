@@ -196,7 +196,3 @@ export function IconSelector(iconName: IconName, returnTypeAs?: "JSXElement") {
   }
   return svgIcons[iconName ? iconName : "AddIcon"];
 }
-
-// | As<any>
-// | React.ReactElement<any, string | React.JSXElementConstructor<any>>
-// | undefined
