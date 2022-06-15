@@ -31,6 +31,20 @@ yarn dev
 
 ## Push with CLI or Github Actions
 
+First, create a new library and get token.
+
+[UXPin | Dashboard](https://app.uxpin.com/dashboard/merge)
+
+### CLI
+
+```sh
+npm run push uxpin-merge push --token "TOKEN"
+or
+yarn push uxpin-merge push --token "TOKEN"
+```
+
+### Github Actions
+
 WIP
 
 ## Contributions
