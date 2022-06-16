@@ -12,7 +12,7 @@ interface IProps extends PropsBase {
   children: ReactNode;
   direction?: StackDirection;
   spacing?: ThemeTypings["space"];
-  divider: boolean;
+  divider?: boolean;
   dividerColor?: ThemeTypings["colors"];
   align?: AlignItems;
   justify?: Justify;
