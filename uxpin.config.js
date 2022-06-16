@@ -21,6 +21,8 @@ module.exports = {
           "src/components/checkbox/Checkbox.tsx",
           "src/components/checkbox-group/CheckboxGroup.tsx",
           "src/components/icon-button/IconButton.tsx",
+          "src/components/radio/Radio.tsx",
+          "src/components/radio-group/RadioGroup.tsx",
         ],
       },
       {
