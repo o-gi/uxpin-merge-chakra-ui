@@ -14,6 +14,7 @@ interface IProps extends PropsBase {
   ariaLabel: string;
   name?: string;
   isChecked?: boolean;
+  onChange?: () => void;
   size?: "sm" | "md" | "lg";
   colorScheme?: ThemeTypings["colorSchemes"];
   spacing?: string;
