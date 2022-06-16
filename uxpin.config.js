@@ -23,6 +23,7 @@ module.exports = {
           "src/components/icon-button/IconButton.tsx",
           "src/components/radio/Radio.tsx",
           "src/components/radio-group/RadioGroup.tsx",
+          "src/components/textarea/Textarea.tsx",
         ],
       },
       {
