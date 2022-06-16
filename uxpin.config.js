@@ -18,6 +18,8 @@ module.exports = {
         include: [
           "src/components/button/Button.tsx",
           "src/components/button-group/ButtonGroup.tsx",
+          "src/components/checkbox/Checkbox.tsx",
+          "src/components/checkbox-group/CheckboxGroup.tsx",
           "src/components/icon-button/IconButton.tsx",
         ],
       },
