@@ -6,6 +6,7 @@ module.exports = {
         include: [
           "src/components/box/Box.tsx",
           "src/components/center/Center.tsx",
+          "src/components/container/Container.tsx",
           "src/components/flex/Flex.tsx",
           "src/components/flex-spacer/FlexSpacer.tsx",
           "src/components/square/Square.tsx",
