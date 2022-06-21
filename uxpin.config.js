@@ -12,6 +12,8 @@ module.exports = {
           "src/components/square/Square.tsx",
           "src/components/circle/Circle.tsx",
           "src/components/stack/Stack.tsx",
+          "src/components/wrap/Wrap.tsx",
+          "src/components/wrap-item/WrapItem.tsx",
         ],
       },
       {
