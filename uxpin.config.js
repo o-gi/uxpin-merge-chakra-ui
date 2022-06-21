@@ -4,6 +4,7 @@ module.exports = {
       {
         name: "Layout",
         include: [
+          "src/components/aspect-ratio/AspectRatio.tsx",
           "src/components/box/Box.tsx",
           "src/components/center/Center.tsx",
           "src/components/container/Container.tsx",
