@@ -9,6 +9,8 @@ module.exports = {
           "src/components/center/Center.tsx",
           "src/components/container/Container.tsx",
           "src/components/flex/Flex.tsx",
+          "src/components/grid/Grid.tsx",
+          "src/components/grid-item/GridItem.tsx",
           "src/components/flex-spacer/FlexSpacer.tsx",
           "src/components/square/Square.tsx",
           "src/components/circle/Circle.tsx",
