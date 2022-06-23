@@ -8,7 +8,7 @@ Currently UXPin Merge doesn't support React18, so the Chakra UI in use for this 
 
 WIP
 
-## How to use
+## Usage
 
 1. Create UXPin account if you don't have yet.
    [https://www.uxpin.com/jp/](https://www.uxpin.com/)
