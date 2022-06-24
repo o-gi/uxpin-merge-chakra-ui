@@ -44,7 +44,11 @@ module.exports = {
       },
       {
         name: "Feedback",
-        include: ["src/components/spinner/Spinner.tsx"],
+        include: [
+          "src/components/alert/Alert.tsx",
+          "src/components/alert-title/AlertTitle.tsx",
+          "src/components/spinner/Spinner.tsx",
+        ],
       },
       {
         name: "Typography",
