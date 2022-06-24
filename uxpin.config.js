@@ -47,6 +47,7 @@ module.exports = {
         include: [
           "src/components/alert/Alert.tsx",
           "src/components/alert-title/AlertTitle.tsx",
+          "src/components/circular-progress/CircularProgress.tsx",
           "src/components/spinner/Spinner.tsx",
         ],
       },
