@@ -30,6 +30,7 @@ module.exports = {
           "src/components/input/Input.tsx",
           "src/components/radio/Radio.tsx",
           "src/components/radio-group/RadioGroup.tsx",
+          "src/components/select/Select.tsx",
           "src/components/textarea/Textarea.tsx",
         ],
       },
