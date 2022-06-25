@@ -33,6 +33,7 @@ module.exports = {
           "src/components/checkbox-group/CheckboxGroup.tsx",
           "src/components/icon-button/IconButton.tsx",
           "src/components/input/Input.tsx",
+          "src/components/number-input/NumberInput.tsx",
           "src/components/radio/Radio.tsx",
           "src/components/radio-group/RadioGroup.tsx",
           "src/components/select/Select.tsx",
