@@ -2,6 +2,8 @@ import { Input as InputC, ThemeTypings } from "@chakra-ui/react";
 import { PropsBase } from "../../cores/types";
 
 interface IProps extends PropsBase {
+  id?: string;
+  type?: "text" | "email" | "password" | "number" | "tel" | "url" | "search";
   placeholder?: string;
   size?: "xs" | "sm" | "md" | "lg";
   variant?: ThemeTypings["components"]["Input"]["variants"];
