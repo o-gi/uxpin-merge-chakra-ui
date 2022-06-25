@@ -70,6 +70,10 @@ module.exports = {
           "src/components/image/Image.tsx",
         ],
       },
+      {
+        name: "Other",
+        include: ["src/components/close-button/CloseButton.tsx"],
+      },
     ],
     wrapper: "src/UXPinWrapper.tsx",
     webpackConfig: "uxpin.webpack.config.js",
