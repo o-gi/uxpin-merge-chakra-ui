@@ -25,6 +25,7 @@ module.exports = {
           "src/components/button/Button.tsx",
           "src/components/button-group/ButtonGroup.tsx",
           "src/components/checkbox/Checkbox.tsx",
+          "src/components/editable/Editable.tsx",
           "src/components/checkbox-group/CheckboxGroup.tsx",
           "src/components/icon-button/IconButton.tsx",
           "src/components/input/Input.tsx",
