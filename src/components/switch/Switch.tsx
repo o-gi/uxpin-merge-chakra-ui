@@ -5,7 +5,7 @@ import { PropsBase } from "../../cores/types";
 interface IProps extends PropsBase {
   /** @uxpinignoreprop */
   uxpinRef: LegacyRef<HTMLInputElement>;
-  "aria-labeel"?: string;
+  "aria-label"?: string;
   "aria-describedby"?: string;
   "aria-labelledby"?: string;
   id?: string;

@@ -11,7 +11,7 @@ import { Orientation, PropsBase } from "../../cores/types";
 interface IProps extends PropsBase {
   /** @uxpinignoreprop */
   uxpinRef: LegacyRef<HTMLDivElement>;
-  "aria-labeel"?: string;
+  "aria-label"?: string;
   "aria-describedby"?: string;
   "aria-valuetext"?: string;
   id?: string;
