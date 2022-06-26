@@ -6,9 +6,25 @@ export interface PropsBase {
    */
   w?: string;
   /**
+   * @uxpinpropname -min
+   */
+  minW?: string;
+  /**
+   * @uxpinpropname -max
+   */
+  maxW?: string;
+  /**
    * @uxpinpropname Height
    */
   h?: string;
+  /**
+   * @uxpinpropname -min
+   */
+  minH?: string;
+  /**
+   * @uxpinpropname -max
+   */
+  maxH?: string;
   bg?: ThemeTypings["colors"];
   color?: ThemeTypings["colors"];
   /**
