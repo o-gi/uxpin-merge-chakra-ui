@@ -34,6 +34,8 @@ module.exports = {
           "src/components/icon-button/IconButton.tsx",
           "src/components/input/Input.tsx",
           "src/components/number-input/NumberInput.tsx",
+          "src/components/pin-input/PinInput.tsx",
+          "src/components/pin-input-field/PinInputField.tsx",
           "src/components/radio/Radio.tsx",
           "src/components/radio-group/RadioGroup.tsx",
           "src/components/select/Select.tsx",
