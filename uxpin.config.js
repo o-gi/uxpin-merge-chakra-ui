@@ -85,7 +85,12 @@ module.exports = {
       },
       {
         name: "Navigation",
-        include: ["src/components/link/Link.tsx"],
+        include: [
+          "src/components/breadcrumb/Breadcrumb.tsx",
+          "src/components/breadcrumb-item/BreadcrumbItem.tsx",
+          "src/components/breadcrumb-link/BreadcrumbLink.tsx",
+          "src/components/link/Link.tsx",
+        ],
       },
       {
         name: "Media and icons",
