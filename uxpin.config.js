@@ -14,6 +14,7 @@ module.exports = {
           "src/components/flex-spacer/FlexSpacer.tsx",
           "src/components/square/Square.tsx",
           "src/components/circle/Circle.tsx",
+          "src/components/simple-grid/SimpleGrid.tsx",
           "src/components/stack/Stack.tsx",
           "src/components/wrap/Wrap.tsx",
           "src/components/wrap-item/WrapItem.tsx",
