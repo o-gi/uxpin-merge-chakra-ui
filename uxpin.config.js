@@ -84,6 +84,10 @@ module.exports = {
         ],
       },
       {
+        name: "Overlay",
+        include: ["src/components/tooltip/Tooltip.tsx"],
+      },
+      {
         name: "Navigation",
         include: [
           "src/components/breadcrumb/Breadcrumb.tsx",
