@@ -1,4 +1,4 @@
-import { BreadcrumbLink } from "../../Breadcrumb-link";
+import { BreadcrumbLink } from "../../breadcrumb-link";
 import { BreadcrumbItem } from "../BreadcrumbItem";
 
 export default (

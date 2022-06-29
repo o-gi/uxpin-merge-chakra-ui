@@ -1,5 +1,5 @@
-import { BreadcrumbItem } from "../../Breadcrumb-item";
-import { BreadcrumbLink } from "../../Breadcrumb-link";
+import { BreadcrumbItem } from "../../breadcrumb-item";
+import { BreadcrumbLink } from "../../breadcrumb-link";
 import { Breadcrumb } from "../Breadcrumb";
 
 export default (
