@@ -84,6 +84,10 @@ module.exports = {
         ],
       },
       {
+        name: "Navigation",
+        include: ["src/components/link/Link.tsx"],
+      },
+      {
         name: "Media and icons",
         include: [
           "src/components/avatar/Avatar.tsx",
