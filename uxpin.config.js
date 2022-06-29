@@ -85,7 +85,13 @@ module.exports = {
       },
       {
         name: "Overlay",
-        include: ["src/components/tooltip/Tooltip.tsx"],
+        include: [
+          "src/components/alert-dialog/AlertDialog.tsx",
+          "src/components/alert-dialog-header/AlertDialogHeader.tsx",
+          "src/components/alert-dialog-body/AlertDialogBody.tsx",
+          "src/components/alert-dialog-footer/AlertDialogFooter.tsx",
+          "src/components/tooltip/Tooltip.tsx",
+        ],
       },
       {
         name: "Navigation",
