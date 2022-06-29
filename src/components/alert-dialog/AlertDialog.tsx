@@ -10,6 +10,37 @@ interface IProps {
   /** @uxpinignoreprop */
   children: ReactNode;
   open: boolean;
+  id?: string;
+  motionPreset?: "slideInBottom" | "slideInRight" | "scale" | "none";
+  size?:
+    | "xs"
+    | "sm"
+    | "md"
+    | "lg"
+    | "xl"
+    | "2xl"
+    | "3xl"
+    | "4xl"
+    | "5xl"
+    | "6xl"
+    | "full";
+  isCentered?: boolean;
+  autoFocus?: boolean;
+  blockScrollOnMount?: boolean;
+  closeOnEsc?: boolean;
+  closeOnOverlayClick?: boolean;
+  /**
+   * @uxpinpropname onCloseComplete
+   */
+  onCloseComplete?: () => void;
+  /**
+   * @uxpinpropname onEsc
+   */
+  onEsc?: () => void;
+  /**
+   * @uxpinpropname onOverlayClick
+   */
+  onOverlayClick?: () => void;
 }
 
 /**
